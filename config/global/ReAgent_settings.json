@@ -1,0 +1,149 @@
+{
+  "Profiles": {
+    "flaskhp": {
+      "Groups": [
+        {
+          "Rules": [
+            {
+              "RuleSource": "SinceLastActivation(0.5) && (Vitals.HP.Current > 2 && Vitals.HP.Percent <= 70 && Flasks.Flask1.Canbeused && !Flasks.Flask1.Active) ||\n(Vitals.HP.Current == 1 && Vitals.ES.Percent <= 75 && Flasks.Flask1.Canbeused && !Flasks.Flask1.Active)",
+              "Type": 0,
+              "KeyV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "D1"
+              },
+              "SyntaxVersion": 1
+            }
+          ],
+          "Enabled": false,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": true,
+          "EnabledInMaps": true,
+          "Name": "New rule group 0"
+        }
+      ]
+    },
+    "mana": {
+      "Groups": [
+        {
+          "Rules": [
+            {
+              "RuleSource": "SinceLastActivation(0.5) && Vitals.MANA.Percent <= 50 && Flasks.Flask2.CanBeUsed && !Flasks.Flask2.Active",
+              "Type": 0,
+              "KeyV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "D2"
+              },
+              "SyntaxVersion": 1
+            }
+          ],
+          "Enabled": false,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": true,
+          "EnabledInMaps": true,
+          "Name": "mana"
+        }
+      ]
+    }
+  },
+  "CurrentProfile": "flaskhp",
+  "ShowDebugWindow": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "InspectState": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "GlobalKeyPressCooldown": {
+    "Value": 200
+  },
+  "MaximumMonsterRange": {
+    "Value": 200
+  },
+  "HistorySecondsToKeep": {
+    "Value": 60
+  },
+  "ImageDirectory": {
+    "Value": "textures/ReAgent"
+  },
+  "PluginSettings": {
+    "GlobalKeyPressCooldown": {
+      "Value": 200
+    },
+    "MaximumMonsterRange": {
+      "Value": 200
+    },
+    "HistorySecondsToKeep": {
+      "Value": 60
+    },
+    "EnableInEscapeState": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "KeepEnableTogglesOnASingleLine": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ColorEnableToggles": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "EnableVerticalGroupTabs": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "VerticalTabContainerWidth": {
+      "Value": 150
+    }
+  },
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  }
+}

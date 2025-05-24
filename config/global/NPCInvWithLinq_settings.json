@@ -1,0 +1,35 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "DrawOnTabLabels": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "TabFrameColor": "ff0000ff",
+  "FrameThickness": {
+    "Value": 1
+  },
+  "FilterTest": {
+    "Value": ""
+  },
+  "ReloadFilters": {},
+  "CustomConfigDir": {
+    "Value": ""
+  },
+  "NPCInvRules": [],
+  "RuleConfig": {}
+}

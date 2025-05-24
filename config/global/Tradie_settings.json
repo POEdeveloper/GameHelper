@@ -1,0 +1,26 @@
+{
+  "ImageSize": {
+    "Value": 15
+  },
+  "TextSize": {
+    "Value": 20
+  },
+  "Spacing": {
+    "Value": 4
+  },
+  "ItemTextColor": "e6c3adff",
+  "ItemBackgroundColor": "000000ff",
+  "HoverDelay": {
+    "Value": 268
+  },
+  "Enable": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  }
+}
