@@ -6,3 +6,4 @@ Plugins/Source/ReAgent/
 Plugins/Source/NPCInvWithLinq/
 Plugins/Source/SkillDPS-PoE2/
 /Plugins
+*.exe
